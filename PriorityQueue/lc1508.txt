@@ -1,0 +1,25 @@
+Question:  given nums, size n, computed all subarrary sums, then sorted. given left, right (1 indexed). find sum in sorted sums from left to right
+
+Soln:
+1. Brute:
+
+t: n2.logn, s: n2
+
+2. Using priority queue
+
+t: n2.logn, s: n
+
+-> using minPQ to put all all the sorted nums, iterate from 1 to right. put pair<sum[i], i> (where i = end index) in pq.
+get top from pq, if current index, i >= left, add to ans, and if the end index with this pair (t.second < n - 1), it can be used to add new sums, put (t.first + nums[++t.second], t.second) again in pq.
+
+3. using bs + sliding window
+
+t: nlogsum, s: 1
+
+for bs:
+sorted search space : "sum of first k" smallest subarrary sums, use bs to calculate the sum of first k smallest subarrary sums
+limits -> left = min_element(arr), right = sum(arr)
+resulting answer = bFn(right) - bFn(left - 1)
+
+
+
