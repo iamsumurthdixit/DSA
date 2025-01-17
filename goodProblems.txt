@@ -1,1 +1,12 @@
 lc 2054 -> dp, PQ, line-sweep
+Lc 3152 -> bs, ps, slw
+Lc 2981, 2982 -> hashing, string matching
+Lc 2779 -> I used line sweep, checkout solution for binary search, prefix sum 
+lc 2762 -> PQ, map, monotonic dequeue, 2 pointer
+lc 1475 -> intuition behind monotonic stack ( easy )
+Lc 3203 -> very informative problem on diameter on trees
+Lc 515 -> checkout dis and iterative dfs
+Lc 689 -> very important DP question with 3 pointer and sliding window 
+Lc 2381 -> checkout how to calculate cyclic shift in alphabets
+lc 1408 -> VVIMP -> checkout KMP and suffix-trie implementations for string matching 
+Lc 3042 -> checkout usage and implementation of dual Trie 
