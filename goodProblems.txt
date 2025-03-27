@@ -10,3 +10,9 @@ Lc 689 -> very important DP question with 3 pointer and sliding window
 Lc 2381 -> checkout how to calculate cyclic shift in alphabets
 lc 1408 -> VVIMP -> checkout KMP and suffix-trie implementations for string matching 
 Lc 3042 -> checkout usage and implementation of dual Trie 
+Lc 1765 -> checkout dp solution of this, currently only done using bfs
+Lc 2127 -> MUST checkout for rare bfs and topological approach 
+Lc 2493 -> DSU + BFS, very important 
+Lc 2342 -> vector<minHeap> to vector<int> optimization
+Lc 2375, 1415 -> MUST do for backtracking -> greedy -> bit optimization -> stack. 
+Lc 1028 -> recover binary tree from preorder (string) 3 approaches. 
